@@ -11,7 +11,7 @@ def create_rag_pipeline(vectorstore: Chroma) -> RetrievalQA:
     # Configurer l’API de Gemini
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-pro",
-        google_api_key=os.getenv("GOOGLE_API_KEY") or "AIzaSyDjf76558OvbCugImIsblhIJftSImMajXo",
+        google_api_key=os.getenv("GOOGLE_API_KEY") or "",
         temperature=0.7
     )
     
