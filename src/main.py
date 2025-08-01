@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-GOOGLE_API_KEY = "AIzaSyDjf76558OvbCugImIsblhIJftSImMajXo"
+GOOGLE_API_KEY = ""
 
 app = FastAPI()
 
